@@ -1,5 +1,5 @@
 console.log('Running copy captions on :: ', window.location.href);
-main(0);
+setTimeout(() => main(0), 1000);
 
 function main(attemptCount) {
   console.log('Attempt number :: ', attemptCount);
