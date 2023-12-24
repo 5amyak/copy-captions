@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Copy Captions",
   "version": "1.0",
-  "description": "Copy and download captions on any YT video, if available",
+  "description": "Copy captions of any YT video, if available",
   "permissions": [
     "clipboardWrite",
     "notifications",
