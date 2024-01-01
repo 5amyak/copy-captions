@@ -33,6 +33,7 @@ function scrapeTranscript() {
   for (let transcriptTextNode of transcriptTextNodes) {
     transcript += transcriptTextNode.textContent + ' ';
   }
-  return 'TRANSCRIPT: ' + transcript + '\n\nSummarize it in bullet points.';
+  return 'TRANSCRIPT: ' + transcript + '\n\nSummarize it in bullet points using simple indian english. ' +
+    '\nUse titles and illustrations if needed to keep it engaging.';
 }
 

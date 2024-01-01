@@ -1,4 +1,6 @@
 function sendNotification(title, msg) {
+  console.log("Sending notification with title :: ", title);
+
   const notificationOptions = {
     type: "basic",
     iconUrl: "../images/icon-64.png",
@@ -11,7 +13,7 @@ function sendNotification(title, msg) {
 
 // Listen for a message from the content script or popup
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
-  console.log('running in background');
+  console.log('Running in background');
   if (message.action === "captionsCopied") {
     sendNotification('Copy Captions', 'Text copied to clipboard');
   }
