@@ -1,2 +1,3 @@
 ## Copy Captions
-Copy captions of any YT video for synthesis by GenAI tools. Especially useful with podcasts and talks.
+Easily extract captions from any YouTube video for AI-powered analysis, summarization, and synthesis—ideal for podcasts, lectures, and talks.
+Create a one-click button to copy transcripts from YouTube videos (when available).
